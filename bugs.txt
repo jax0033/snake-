@@ -1,0 +1,2 @@
+food can still spawn on places occupied by the snake
+sometimes food does not spawn 
