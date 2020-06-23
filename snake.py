@@ -25,7 +25,7 @@ def sscore(x,y,score):
 	render = font.render(f"Score : {score}", True, (255,255,255))
 	screen.blit(render,(x,y))
 
-#aligns a random point to the grid
+#aligns a given point to the grid
 def gridalign(coords):
 	x = coords[0]
 	y = coords[1]
@@ -285,6 +285,9 @@ while running:
 		pygame.display.update()
 	counter+=1
 
+	
+	
+#endings, havent really thought of anything for them. will probably add something in the next update.
 if defeat:
 	print("You lost! "*999)
 	win = False
